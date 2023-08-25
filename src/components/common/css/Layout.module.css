@@ -1,0 +1,11 @@
+.divGeral {
+  position: relative;
+}
+
+@media(max-width: 425px) {
+  .upMenu {
+    width: 100%;
+    height: 5rem;
+    background-color: red;
+  }
+}

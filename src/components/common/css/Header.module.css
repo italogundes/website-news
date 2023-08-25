@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.navLinks a {
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  font-size: 0.938rem;
+}
+
+.navLinks a:hover {
+  color: var(--soft-red);
+}
+
+.menuMobile {
+  display: none;
+}
+
+
+
+@media(max-width: 425px) {
+
+  .header {
+    position: relative;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .menuMobile {
+    display: flex;
+    cursor: pointer;
+  }
+
+}
